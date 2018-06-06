@@ -14,7 +14,7 @@ public class Why {
                 .collect(Collectors.toSet());
 
         System.out.println(String.format(
-                "I got %d instances of %s, but %s ain't one",
+                "I got %d instances of %s, but %s ain't one...",
                 problems.size(),
                 Problem.class.getSimpleName(),
                 Java.class.getSimpleName()
